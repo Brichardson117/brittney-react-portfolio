@@ -1,17 +1,6 @@
-import About from "./componets/about";
-import Contact from "./componets/contact";
-import Projects from "./componets/projects";
+import React from "react";
+import PortfolioContainer from "./Container";
 
-function App() {
-  return ( 
-    <div> 
-    <About></About>
-    <Projects></Projects>
-    <Contact></Contact>
-    </div>
-  )
-  
-  
-}
+const App = () => <PortfolioContainer />;
 
 export default App;

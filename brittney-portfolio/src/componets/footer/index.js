@@ -1,6 +1,6 @@
 import React from "react";
 
-function footer() {
+function Footer() {
   <footer>
     <h2>Contact Me</h2>
     <ul>
@@ -17,9 +17,11 @@ function footer() {
         </a>
       </li>
       <li>
-          <a href="https://github.com/Brichardson117" target='_blank'><strong>GitHub:</strong>Brichardson117</a>
+          <a href="https://github.com/Brichardson117" target='_blank' rel="noreferrer"><strong>GitHub:</strong>Brichardson117</a>
       </li>
-      <li> <a href="https://www.linkedin.com/in/brittneyrichardson/" target="_blank" ></a> <strong>linkedin:</strong>Brittney Richardson</li>
+      <li> <a href="https://www.linkedin.com/in/brittneyrichardson/" target="_blank" rel="noreferrer" ></a> <strong>linkedin:</strong>Brittney Richardson</li>
     </ul>
   </footer>;
 }
+
+export default Footer
