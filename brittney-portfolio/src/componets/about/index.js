@@ -4,9 +4,10 @@ import aboutImage from '../../assets/me/selfie.JPG'
 
 function About() {
     return (
-        <section>
-            <h1>About Me</h1>
-            <img src={aboutImage} alt='picture of me' style={{ height: '200px', width: '200px'}}/>
+      <div className="uk-section uk-section-muted uk-flex-center@s uk-flex-center@m"> 
+        <section className="uk-container" >
+            <h2 className="uk-pane">About Me</h2>
+            <img className='uk-align-left uk-margin-remove-adjacent' src={aboutImage} alt='me' style={{ height: '300px', width: '300px'}}/>
             <div> 
             <p>
             Hello! My name is Brittney, a Full Stack Web Developer with a
@@ -20,6 +21,7 @@ function About() {
             </p>
           </div>  
         </section>
+        </div>
     )
 }
 
