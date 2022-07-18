@@ -1,38 +1,33 @@
 import React from "react";
+import "../../App.css";
+import Nav from 'react-bootstrap/Nav'
 
-function NavTabs({ currentPage, handlePageChange }) {
-  return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
-        <a
-          href="#home"
-          onClick={() => handlePageChange("Home")}
-          className={currentPage === "Home" ? "nav-link active" : "nav-link"}
-        >
-          Home
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#about"
-          onClick={() => handlePageChange("About")}
-          className={currentPage === "About" ? "nav-link active" : "nav-link"}
-        >
-          About
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#Projects"
-          onClick={() => handlePageChange("Projects")}
-          className={
-            currentPage === "Projects" ? "nav-link active" : "nav-link"
-          }
-        >
-          Projects
-        </a>
-      </li>
-    </ul>
-  );
+
+
+function NavTabs({currentPage, handlePageChange }) {
+
+  
+  return(
+    <div className="header-color"> 
+    <header className="uk-navbar-container"> 
+      <h1 className="">Brittney Portfolio</h1>
+      <div className="uk-position-top" >
+    <Nav className="uk-navbar-nav uk-align-right" activeKey="/home">
+    <Nav.Item>
+      <Nav.Link href="#Home" eventKey="link-1"  onClick={() => handlePageChange("Home")} >Home</Nav.Link>
+    </Nav.Item>
+    <Nav.Item>
+      <Nav.Link href="#Resume" eventKey="link-2" onClick={() => handlePageChange("Resume")}>Resume and More</Nav.Link>
+    </Nav.Item>
+    <Nav.Item>
+      <Nav.Link href="#Projects" eventKey="link-3" onClick={() => handlePageChange("Projects")}>Projects</Nav.Link>
+    </Nav.Item>
+    <Nav.Item>
+    </Nav.Item>
+  </Nav>
+ </div>
+  </header>
+</div>
+  )
 }
 export default NavTabs;
