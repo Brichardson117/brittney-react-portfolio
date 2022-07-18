@@ -1,33 +1,33 @@
 import React from "react";
 import "../../App.css";
-import Nav from 'react-bootstrap/Nav'
+import Tabs from '@mui/material/Tabs';
+import Tab from '@mui/material/Tab';
+import Box from '@mui/material/Box';
 
 
+export default function NavTabs({currentPage, handlePageChange }) {
+  const [value, setValue] = React.useState('one');
 
-function NavTabs({currentPage, handlePageChange }) {
+  const handleChange = (event, newValue) => {
+    setValue(newValue);
+  };
 
-  
-  return(
-    <div className="header-color"> 
-    <header className="uk-navbar-container"> 
-      <h1 className="">Brittney Portfolio</h1>
-      <div className="uk-position-top" >
-    <Nav className="uk-navbar-nav uk-align-right" activeKey="/home">
-    <Nav.Item>
-      <Nav.Link href="#Home" eventKey="link-1"  onClick={() => handlePageChange("Home")} >Home</Nav.Link>
-    </Nav.Item>
-    <Nav.Item>
-      <Nav.Link href="#Resume" eventKey="link-2" onClick={() => handlePageChange("Resume")}>Resume and More</Nav.Link>
-    </Nav.Item>
-    <Nav.Item>
-      <Nav.Link href="#Projects" eventKey="link-3" onClick={() => handlePageChange("Projects")}>Projects</Nav.Link>
-    </Nav.Item>
-    <Nav.Item>
-    </Nav.Item>
-  </Nav>
- </div>
-  </header>
-</div>
-  )
+  return (
+    <> 
+    <h1>Brittney, Full Stack Web Developer </h1>
+    <Box sx={{ width: '100%' }}>
+      <Tabs
+        value={value}
+        onChange={handleChange}
+        textColor="secondary"
+        indicatorColor="secondary"
+        aria-label="secondary tabs example"
+      >
+        <Tab value="one" label="Home" onClick={() => handlePageChange("Home")}/>
+        <Tab value="two" label="Projects" onClick={() => handlePageChange("Projects")}/>
+        <Tab value="three" label="Skills and Resume" onClick={() => handlePageChange("Resume")} />
+      </Tabs>
+    </Box>
+</>
+  );
 }
-export default NavTabs;
