@@ -1,11 +1,11 @@
 import React from "react";
 import Button from "@mui/material/Button";
-import Portfolio from "../../assets/downloads/portfolio.pdf";
+import Portfolio from "../../assets/downloads/Portfolio.pdf";
 
 function Resume() {
   return (
     <>
-      <div className="uk-column-1-2">
+      <div className="uk-column-1-2 ">
         <ol>
           <strong>Front End Skills</strong>
           <li>HTML</li>

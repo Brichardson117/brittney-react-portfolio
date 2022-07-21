@@ -15,6 +15,7 @@ export default function NavTabs({currentPage, handlePageChange }) {
   return (
     <> 
     <h1>Brittney, Full Stack Web Developer </h1>
+    <div className="uk-position-top-right"> 
     <Box sx={{ width: '100%' }}>
       <Tabs
         value={value}
@@ -28,6 +29,7 @@ export default function NavTabs({currentPage, handlePageChange }) {
         <Tab value="three" label="Skills and Resume" onClick={() => handlePageChange("Resume")} />
       </Tabs>
     </Box>
+    </div>
 </>
   );
 }

@@ -43,7 +43,7 @@ function Projects() {
 function ProjectTemplate() {
 
   return (
-    <section>
+    <section className="">
       <h2>My Projects</h2>
     <Grid container spacing={2}>
     {Projects().map((projects) => (

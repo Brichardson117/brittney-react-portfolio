@@ -6,7 +6,7 @@ export default function Home() {
     <div > 
     <br /> 
     <br /> 
-    <section className >
+    <section className="" >
         <h2 className='uk-text-center uk-panel '>About Me</h2>
         <img className='uk-align-left uk-margin-remove-adjacen' src={aboutImage} alt='me' style={{ height: '300px', width: '300px'}}/>
         <div> 
