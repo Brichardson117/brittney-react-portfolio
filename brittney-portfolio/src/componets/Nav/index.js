@@ -1,35 +1,29 @@
 import React from "react";
+import Container from "react-bootstrap/Container";
+import Button from "react-bootstrap/Button";
 import "../../App.css";
-import Tabs from '@mui/material/Tabs';
-import Tab from '@mui/material/Tab';
-import Box from '@mui/material/Box';
 
-
-export default function NavTabs({currentPage, handlePageChange }) {
-  const [value, setValue] = React.useState('one');
-
-  const handleChange = (event, newValue) => {
-    setValue(newValue);
-  };
-
+export default function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <> 
-    <h1>Brittney, Full Stack Web Developer </h1>
-    <div className="uk-position-top-right"> 
-    <Box sx={{ width: '100%' }}>
-      <Tabs
-        value={value}
-        onChange={handleChange}
-        textColor="secondary"
-        indicatorColor="secondary"
-        aria-label="secondary tabs example"
-      >
-        <Tab value="one" label="Home" onClick={() => handlePageChange("Home")}/>
-        <Tab value="two" label="Projects" onClick={() => handlePageChange("Projects")}/>
-        <Tab value="three" label="Skills and Resume" onClick={() => handlePageChange("Resume")} />
-      </Tabs>
-    </Box>
-    </div>
-</>
+    <>
+      <Container>
+        <nav>
+          <h1>Brittney Portfolio</h1>
+          <ul>
+            <Button variant="info">
+              <li onClick={() => handlePageChange("Home")}>Home</li>
+            </Button>
+            <Button variant="info">
+              <li onClick={() => handlePageChange("Projects")}>Projects</li>
+            </Button>
+            <Button variant="info">
+              <li onClick={() => handlePageChange("Resume")}>
+                Resume and Skills
+              </li>
+            </Button>
+          </ul>
+        </nav>
+      </Container>
+    </>
   );
 }

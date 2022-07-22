@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Projects from './componets/projects';
 import Home from './componets/Home';
 import NavTabs from './componets/Nav';
-import Footer from './componets/footer';
 import Resume from './componets/Resume';
 
 export default function PortfolioContainer() {

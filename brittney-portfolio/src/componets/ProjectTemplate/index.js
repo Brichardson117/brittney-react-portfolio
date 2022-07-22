@@ -6,9 +6,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
-
-
-
+import '../../App.css'
 
 function Projects() {
   return [
@@ -43,9 +41,9 @@ function Projects() {
 function ProjectTemplate() {
 
   return (
-    <section className="">
+    <section>
       <h2>My Projects</h2>
-    <Grid container spacing={2}>
+    <Grid container spacing={2} className="uk-flex">
     {Projects().map((projects) => (
       <Grid item sm={6} md={4} sx={{ flexGrow: 1 }} key={projects.title}>
         <Card
