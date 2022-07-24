@@ -37,6 +37,10 @@ nav{
  
 }
 
+h1 {
+  padding: 15px;
+  
+}
 
 h2 {
   text-align: center;
@@ -53,22 +57,19 @@ ul {
   
 }
 
-h1 {
-  padding: 15px;
-  
+p {
+  color: black;
+}
+
+a {
+  text-decoration: none;
 }
 
 footer {
   color: white;
   text-align: center;
-  padding: 19%;
+  padding: 20%;
   overflow: hidden;
-}
-
-
-
-p {
-  color: black;
 }
 
 

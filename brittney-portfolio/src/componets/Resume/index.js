@@ -32,8 +32,8 @@ function Resume() {
         </ol>
       </div>
       <section>
-        <h3>Click the button bellow do download my Resume</h3>
-        <a className="portfolio" download href={Portfolio}>
+        <h3>Click the button bellow to download my Resume</h3>
+        <a  download href={Portfolio}>
           <Button color="secondary" variant="contained">
             Download
           </Button>
