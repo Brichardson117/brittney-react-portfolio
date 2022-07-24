@@ -13,7 +13,7 @@ function Projects() {
     {
       name: "Crypto-Watch",
       description:
-        "Crypto Watch! A new app where you can monitior your favorite Crypto currencies! We created a list of the 20 most popular currencies that you can be added to your personal watch list. A link to the deployed webiste is in the README.",
+        "Crypto Watch! A new app where you can monitior your favorite Crypto currencies! We created a list of the 20 most popular currencies that you can be added to your personal watch list. This project was built with HTML, CSS, JavaScript, and Bulma.",
       gitHubLink: "https://github.com/Brichardson117/Crypto-Watch",
       deployedLink: "https://brichardson117.github.io/Crypto-Watch/",
       src: require(`../../assets/projects/A.png`)
@@ -21,7 +21,7 @@ function Projects() {
     {
       name: "Tech Jobs",
       description:
-        "A FullStack web application built for developers to find remote work. Users who have an account with us can also search for jobs based on a skill that they are proficient in. A link to the deployed website in in the README.",
+        "A FullStack web application built for developers to find remote work. Users who have an account with us can also search for jobs based on a skill that they are proficient in. Built with Handlebars.js, JavaScript, CSS, Node.js, Express.js, and Sequelize.",
       gitHubLink: "https://github.com/Brichardson117/Tech-Jobs",
       deployedLink: "https://techjob2.herokuapp.com",
       src: require(`../../assets/projects/B.png`)
@@ -29,7 +29,7 @@ function Projects() {
     {
       name: "E-commerce Backend",
       description:
-        "Backend application for an e-commerce website to view, add, delete and update different products, tags, and categories. A link to a demo of the code is in the README.",
+        "Backend application for an e-commerce website to view, add, delete and update different products, tags, and categories. Built with JavaScript, Node.js, MySQL, Express.js and demoed using Insomina.",
       gitHubLink: "https://github.com/Brichardson117/improved-bassoon",
       deployedLink: 'https://youtu.be/Yu8h0E0yCIc',
       src: require(`../../assets/projects/C.gif`)
@@ -70,8 +70,11 @@ function ProjectTemplate() {
             <Typography component="p">{projects.description}</Typography>
           </CardContent>
           <CardActions>
-            <Button component="a" variant="outlined" href={projects.deployedLink} target='_blank' size="small">
-              Click here
+            <Button component="a" variant="outlined" color="secondary"  href={projects.deployedLink} target='_blank' size="medium">
+              Deployed or Demo
+            </Button>
+            <Button component="a" variant="outlined" color="secondary"  href={projects.gitHubLink} target='_blank' size="medium">
+              Github
             </Button>
           </CardActions>
         </Card>

@@ -10,13 +10,13 @@ export default function NavTabs({ currentPage, handlePageChange }) {
         <nav>
           <h1>Brittney Portfolio</h1>
           <ul>
-            <Button variant="info">
+            <Button variant="outline-primary">
               <li onClick={() => handlePageChange("Home")}>Home</li>
             </Button>
-            <Button variant="info">
+            <Button variant="outline-primary">
               <li onClick={() => handlePageChange("Projects")}>Projects</li>
             </Button>
-            <Button variant="info">
+            <Button variant="outline-primary">
               <li onClick={() => handlePageChange("Resume")}>
                 Resume and Skills
               </li>

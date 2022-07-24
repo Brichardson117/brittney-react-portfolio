@@ -1,6 +1,8 @@
 html{
   color: black;
   box-sizing: border-box;
+  height: 100%;
+  
 }
 
 body {
@@ -19,9 +21,10 @@ body {
     #46eefa,
     #5ffbf1
   );
-  height: 100%;
+  min-height: 100%;
   margin: 0;
   color: white;
+  overflow: hidden;
 }
 
 nav{
@@ -57,8 +60,8 @@ ul {
   
 }
 
-p {
-  color: black;
+li a {
+  size: 20px;
 }
 
 a {
@@ -69,7 +72,10 @@ footer {
   color: white;
   text-align: center;
   padding: 20%;
-  overflow: hidden;
+}
+
+.about-me {
+  color: white;
 }
 
 

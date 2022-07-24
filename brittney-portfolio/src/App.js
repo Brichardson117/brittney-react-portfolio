@@ -1,6 +1,6 @@
 import React from "react";
 import PortfolioContainer from "./Container";
-import Footer from "./componets/footer";
+import Footer from "./componets/Footer";
 
 function App() {
     return(

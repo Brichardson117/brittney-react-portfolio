@@ -12,7 +12,7 @@ function Footer() {
             href="https://github.com/Brichardson117"
             target="_blank"
             rel="noopener noreferrer"
-            uk-icon="github"
+            uk-icon="icon: github; ratio: 2"
           />
         </li>
         <li>
@@ -21,7 +21,7 @@ function Footer() {
             href="https://www.linkedin.com/in/brittneyrichardson/"
             target="_blank"
             rel="noopener noreferrer"
-            uk-icon="linkedin"
+            uk-icon="icon: linkedin; ratio: 2"
           />
         </li>
         <li>
@@ -30,7 +30,7 @@ function Footer() {
             href="mailto: brittneyrichardson8@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
-            uk-icon="mail"
+            uk-icon="icon: mail; ratio: 2"
           />
         </li>
         <li>
@@ -39,7 +39,7 @@ function Footer() {
             href="tel: 8326124653"
             target="_blank"
             rel="noopener noreferrer"
-            uk-icon="phone"
+            uk-icon="icon: phone; ratio: 2"
           />
         </li>
       </ul>
