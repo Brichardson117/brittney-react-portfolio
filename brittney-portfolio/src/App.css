@@ -61,11 +61,11 @@ h1 {
 footer {
   color: white;
   text-align: center;
+  padding: 19%;
+  overflow: hidden;
 }
 
-.portfolio {
-  text-decoration: none;
-}
+
 
 p {
   color: black;

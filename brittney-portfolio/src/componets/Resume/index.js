@@ -5,6 +5,7 @@ import Portfolio from "../../assets/downloads/Portfolio.pdf";
 function Resume() {
   return (
     <>
+    <h2>Resume and Skills </h2>
       <div className="uk-column-1-2 ">
         <ol>
           <strong>Front End Skills</strong>
