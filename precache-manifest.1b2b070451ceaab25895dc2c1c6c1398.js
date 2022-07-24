@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "2ae1a231df8ccba828b4",
-    "url": "/brittney-react-portfolio/static/css/main.73d05116.chunk.css"
+    "revision": "943955f5a98b178c7038",
+    "url": "/brittney-react-portfolio/static/css/main.d263b3d6.chunk.css"
   },
   {
-    "revision": "2ae1a231df8ccba828b4",
-    "url": "/brittney-react-portfolio/static/js/main.2ae1a231.chunk.js"
+    "revision": "943955f5a98b178c7038",
+    "url": "/brittney-react-portfolio/static/js/main.943955f5.chunk.js"
   },
   {
     "revision": "9d6d0ad7f97bf131636f",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/brittney-react-portfolio/static/media/C.716da886.gif"
   },
   {
-    "revision": "7545957de4deb073ce1205fe1d644cf3",
+    "revision": "101198ae7bc509205b5393a787bdf1fc",
     "url": "/brittney-react-portfolio/index.html"
   }
 ];
