@@ -17,7 +17,9 @@ You can view my portfolio here: https://brichardson117.github.io/brittney-react-
   ## Questions
  If you have additional questions you can reach me here brittneyrichardson8@gmail.com and https://github.com/Brichardson117
  
-<img width="2240" alt="Screen Shot 2022-07-18 at 1 06 28 PM" src="https://user-images.githubusercontent.com/97998857/179575399-49ae0c87-4786-4101-b252-ab457e8e1a4a.png">
-<img width="2236" alt="Screen Shot 2022-07-18 at 1 06 37 PM" src="https://user-images.githubusercontent.com/97998857/179575413-b90c8024-1fd5-414d-b90a-67aaf2a56628.png">
-<img width="2240" alt="Screen Shot 2022-07-18 at 1 06 46 PM" src="https://user-images.githubusercontent.com/97998857/179575423-a34caa02-6ee4-4bd3-8695-bf24b857c2cf.png">
 
+<img width="2225" alt="Screen Shot 2022-07-29 at 10 53 35 AM" src="https://user-images.githubusercontent.com/97998857/181797725-5c30ca24-f529-4ef3-aff0-acb1ad2b62c1.png">
+
+<img width="2226" alt="Screen Shot 2022-07-29 at 10 54 08 AM" src="https://user-images.githubusercontent.com/97998857/181797737-1136d295-e4ed-4393-942d-359bb62afc05.png">
+
+<img width="1800" alt="Screen Shot 2022-07-29 at 10 54 18 AM" src="https://user-images.githubusercontent.com/97998857/181797747-301cba9d-e1c9-459b-aaa9-59d7f9380c06.png">
