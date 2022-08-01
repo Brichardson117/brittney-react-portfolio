@@ -13,17 +13,17 @@ export default function Home() {
       <br />
       <Row>
         <section className="about-me">
-          <h2 className="uk-text-center uk-panel">About Me</h2>
+          <h2 className="">About Me</h2>
           <Col>
             <img
-              className="uk-align-left uk-margin-remove-adjacen about-me-img"
+              className=" about-me-img"
               src={aboutImage}
               alt="me"
-              style={{ height: "300px", width: "300px" }}
+              style={{ height: "250px", width: "250px" }}
             />
           </Col>
           <Col>
-            <p className="uk-text-large me-body">
+            <p className="">
               Hello! My name is Brittney, a Full Stack Web Developer with a
               certificate from Rice Coding Bootcamp, newly acquired skills for
               Frontend and Backend Web Development. Very well known for amazing

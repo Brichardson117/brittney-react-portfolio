@@ -1,8 +1,11 @@
-html{
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
   color: black;
   box-sizing: border-box;
-  height: 100%;
-  
 }
 
 body {
@@ -21,13 +24,11 @@ body {
     #46eefa,
     #5ffbf1
   );
-  min-height: 100%;
   margin: 0;
   color: white;
-  overflow: hidden;
 }
 
-nav{
+nav {
   padding: 20px 35px;
   display: flex;
   justify-content: space-between;
@@ -37,12 +38,6 @@ nav{
   top: 0;
   background-position: 80%;
   color: white;
- 
-}
-
-h1 {
-  padding: 15px;
-  
 }
 
 h2 {
@@ -57,7 +52,6 @@ ul {
   justify-content: space-around;
   align-items: center;
   list-style: none;
-  
 }
 
 li a {
@@ -72,14 +66,17 @@ footer {
   color: white;
   text-align: center;
   padding: 20%;
+  margin-top: auto;
 }
 
 .about-me {
   color: white;
 }
 
-
 @media screen and (max-width: 980px) {
+  h1 {
+    text-align: center;
+  }
   nav {
     padding-bottom: 0;
     justify-content: center;
@@ -90,6 +87,9 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+  h1 {
+    text-align: center;
+  }
   nav {
     padding-bottom: 0;
     justify-content: center;
@@ -99,6 +99,9 @@ footer {
 }
 
 @media screen and (max-width: 575px) {
+  h1 {
+    text-align: center;
+  }
   nav {
     padding-bottom: 0;
     justify-content: center;
