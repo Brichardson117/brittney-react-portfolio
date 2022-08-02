@@ -16,14 +16,14 @@ export default function Home() {
           <h2 className="">About Me</h2>
           <Col>
             <img
-              className=" about-me-img"
+              className=" about-me-img uk-align-left "
               src={aboutImage}
               alt="me"
-              style={{ height: "250px", width: "250px" }}
+              style={{ height: "300px", width: "300px" }}
             />
           </Col>
           <Col>
-            <p className="">
+            <p className="uk-text-large uk-text-center@s">
               Hello! My name is Brittney, a Full Stack Web Developer with a
               certificate from Rice Coding Bootcamp, newly acquired skills for
               Frontend and Backend Web Development. Very well known for amazing
