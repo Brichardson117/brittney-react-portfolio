@@ -1,7 +1,7 @@
 {
   "main.css": "/brittney-react-portfolio/static/css/main.828cee45.chunk.css",
-  "main.js": "/brittney-react-portfolio/static/js/main.801e405f.chunk.js",
-  "main.js.map": "/brittney-react-portfolio/static/js/main.801e405f.chunk.js.map",
+  "main.js": "/brittney-react-portfolio/static/js/main.888b38f3.chunk.js",
+  "main.js.map": "/brittney-react-portfolio/static/js/main.888b38f3.chunk.js.map",
   "static/js/1.ac5b1bae.chunk.js": "/brittney-react-portfolio/static/js/1.ac5b1bae.chunk.js",
   "static/js/1.ac5b1bae.chunk.js.map": "/brittney-react-portfolio/static/js/1.ac5b1bae.chunk.js.map",
   "static/js/2.870e91b6.chunk.js": "/brittney-react-portfolio/static/js/2.870e91b6.chunk.js",
@@ -15,6 +15,6 @@
   "static/media/Portfolio.pdf": "/brittney-react-portfolio/static/media/Portfolio.587af903.pdf",
   "static/css/main.828cee45.chunk.css.map": "/brittney-react-portfolio/static/css/main.828cee45.chunk.css.map",
   "index.html": "/brittney-react-portfolio/index.html",
-  "precache-manifest.088e60384219fe16d69e8a3ad311f8e8.js": "/brittney-react-portfolio/precache-manifest.088e60384219fe16d69e8a3ad311f8e8.js",
+  "precache-manifest.75e2cca351180c2a4617e1d166a9395b.js": "/brittney-react-portfolio/precache-manifest.75e2cca351180c2a4617e1d166a9395b.js",
   "service-worker.js": "/brittney-react-portfolio/service-worker.js"
 }
