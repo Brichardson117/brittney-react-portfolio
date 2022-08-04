@@ -35,15 +35,15 @@ function Projects() {
       src: require(`../../assets/projects/C.gif`)
       
     },
-    // {
-    //   name: "Global-Tech-Nomad",
-    //   description:
-    //     "A MERN application for digital Nomadads to find their next internation destination ",
-    //   gitHubLink: "https://github.com/Brichardson117/improved-bassoon",
-    //   deployedLink: 'https://youtu.be/Yu8h0E0yCIc',
-    //   src: require(`../../assets/projects/C.gif`)
+    {
+      name: "Global-Tech-Nomad",
+      description:
+        "A MERN application for digital Nomadads to find their next internation destination ",
+      gitHubLink: "https://github.com/Brichardson117/Global-Tech-Nomad",
+      deployedLink: 'https://youtu.be/Yu8h0E0yCIc',
+      src: require(`../../assets/projects/D.png`)
       
-    // },
+    },
   ]
 }
 
