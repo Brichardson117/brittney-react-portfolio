@@ -40,7 +40,7 @@ function Projects() {
       description:
         "A MERN application for digital Nomadads to find their next internation destination ",
       gitHubLink: "https://github.com/Brichardson117/Global-Tech-Nomad",
-      deployedLink: 'https://youtu.be/Yu8h0E0yCIc',
+      deployedLink: 'https://git.heroku.com/aqueous-earth-09907.git',
       src: require(`../../assets/projects/D.png`)
       
     },
