@@ -38,12 +38,19 @@ function Projects() {
     {
       name: "Global-Tech-Nomad",
       description:
-        "A MERN application for digital Nomadads to find their next internation destination ",
+        "A job website for the infomation technologies gurus to search for jobs. Built with React, CSS, MongoDB with Mongoose, Nodemon, Express.js, GraphQL, Apollo, JSON Web Tokens, mapbox, React Router.",
       gitHubLink: "https://github.com/Brichardson117/Global-Tech-Nomad",
-      deployedLink: 'https://git.heroku.com/aqueous-earth-09907.git',
+      deployedLink: 'https://aqueous-earth-09907.herokuapp.com',
       src: require(`../../assets/projects/D.png`)
       
     },
+    {
+      name: "Weather App",
+      description: 'A web application users can use to get the current weather and forecast for a given location',
+      gitHubLink: 'https://github.com/Brichardson117/redesigned-octo-journey',
+      deployedLink: 'https://brichardson117.github.io/redesigned-octo-journey/',
+      src: require(`../../assets/projects/E.png`)
+    }
   ]
 }
 
